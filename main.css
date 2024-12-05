@@ -1,0 +1,20 @@
+ @media(min-width: 600px){
+    body{
+        background-color: aqua;
+        color: white;
+    }
+}
+
+@media(max-width: 300px){
+    body{
+        background-color: red;
+        color: white;
+    }
+} 
+
+@media (min-width: 600px) and (max-width: 800px) {
+    img{
+       display: none;
+    }
+} 
+
